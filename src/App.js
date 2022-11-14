@@ -8,6 +8,7 @@ import PropMUI from './Component_2/Prop';
 import Complete from './Component_2/AutoCom';
 import SwitchUI from './Component_2/Switch';
 import CardhUI from './Component_2/Card';
+import BoxUI from './Component_2/Box'
 // import { Switch } from '@mui/material';
 function App(){
               return(<>
@@ -23,6 +24,8 @@ function App(){
                 <div className='row'>
                   <div className='col m-3' >
                    <InputUI />
+                   <hr/>
+                    <BoxUI/>
                   </div>
                   <div className='col' ><PropMUI/><hr/><Complete /><hr/><SwitchUI /><hr/><CardhUI /></div>
                 </div>
